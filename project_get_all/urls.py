@@ -21,5 +21,5 @@ from app_get_all import views as lcviews
 # Additionally, we include login URLs for the browsable API.
 
 urlpatterns = [
-    path('app_get_all/', lcviews.select_all),
+    path('get_all_user/', lcviews.select_all),
 ]
